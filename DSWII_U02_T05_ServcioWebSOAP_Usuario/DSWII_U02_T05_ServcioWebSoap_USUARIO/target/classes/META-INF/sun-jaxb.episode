@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v4.0.5 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.12.16 a las 10:55:45 AM PET
+  -->
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/permiso-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.permiso_service"/>
+    </schemaBindings>
+    <bindings scd="~tns:Permiso" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.permiso_service.Permiso"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/rol-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.rol_service"/>
+    </schemaBindings>
+    <bindings scd="tns:GetRolRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.GetRolRequest"/>
+    </bindings>
+    <bindings scd="tns:GetRolResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.GetRolResponse"/>
+    </bindings>
+    <bindings scd="~tns:Rol" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.Rol"/>
+    </bindings>
+    <bindings scd="~tns:RolPermiso" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.RolPermiso"/>
+    </bindings>
+    <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.UsuarioRol"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/usuarioRol-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.usuariorol_service"/>
+    </schemaBindings>
+    <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuariorol_service.UsuarioRol"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/rolPermiso-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.rolpermiso_service"/>
+    </schemaBindings>
+    <bindings scd="~tns:RolPermiso" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.rolpermiso_service.RolPermiso"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/usuario-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.usuario_service"/>
+    </schemaBindings>
+    <bindings scd="tns:GetUsuarioRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuario_service.GetUsuarioRequest"/>
+    </bindings>
+    <bindings scd="tns:GetUsuarioResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuario_service.GetUsuarioResponse"/>
+    </bindings>
+    <bindings scd="~tns:Usuario" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuario_service.Usuario"/>
+    </bindings>
+    <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuario_service.UsuarioRol"/>
+    </bindings>
+  </bindings>
+</bindings>
+

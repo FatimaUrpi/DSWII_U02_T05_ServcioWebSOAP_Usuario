@@ -1,0 +1,17 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://t05.u02.dswii.cibertec.edu.pe/permiso-service"
+           xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/permiso-service"
+           elementFormDefault="qualified">
+
+    <!-- Definir el tipo de UsuarioRol -->
+   <xs:complexType name="Permiso"> 
+    <xs:sequence>
+        <xs:element name="id" type="xs:long"/>
+        <xs:element name="idUsuario" type="xs:long"/>
+        <xs:element name="idRol" type="xs:long"/>
+        <xs:element name="fechaAsignacion" type="xs:dateTime"/>
+    </xs:sequence>
+</xs:complexType>
+
+
+</xs:schema>
