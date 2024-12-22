@@ -3,7 +3,7 @@
               version="3.0">
     <jxb:bindings schemaLocation="../xsd/permiso-schema.xsd" node="/xsd:schema">
         <jxb:schemaBindings>
-            <jxb:package name="pe.edu.cibertec.dswii.u02.t05.model.permiso"/>
+            <jxb:package name="pe.edu.cibertec.dswii.u02.t05.permiso"/>
         </jxb:schemaBindings>
     </jxb:bindings>
 </jxb:bindings>

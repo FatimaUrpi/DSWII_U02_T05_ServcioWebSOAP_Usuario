@@ -1,9 +1,9 @@
 <jxb:bindings xmlns:jxb="https://jakarta.ee/xml/ns/jaxb"
               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
               version="3.0">
-    <jxb:bindings schemaLocation="../xsd/permiso-schema.xsd" node="/xsd:schema">
+    <jxb:bindings schemaLocation="../xsd/usuario-schema.xsd" node="/xsd:schema">
         <jxb:schemaBindings>
-            <jxb:package name="pe.edu.cibertec.dswii.u02.t05.permiso"/>
+            <jxb:package name="pe.edu.cibertec.dswii.u02.t05.usuario"/>
         </jxb:schemaBindings>
     </jxb:bindings>
 </jxb:bindings>
