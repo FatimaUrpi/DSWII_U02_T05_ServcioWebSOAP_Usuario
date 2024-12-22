@@ -13,5 +13,23 @@
     </xs:sequence>
 </xs:complexType>
 
+    <!-- Definir el elemento para la solicitud (Request) -->
+    <xs:element name="GetPermisoRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definir el elemento para la respuesta (Response) -->
+    <xs:element name="GetPermisoResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="permiso" type="tns:Permiso"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
 
 </xs:schema>

@@ -5,14 +5,20 @@
 Este archivo ha sido generado por Eclipse Implementation of JAXB v4.0.5 
 Visite https://eclipse-ee4j.github.io/jaxb-ri 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2024.12.16 a las 10:55:45 AM PET
+Generado el: 2024.12.18 a las 09:33:10 AM PET
   -->
   <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/permiso-service">
     <schemaBindings map="false">
-      <package name="pe.edu.cibertec.dswii.u02.t05.permiso_service"/>
+      <package name="pe.edu.cibertec.dswii.u02.t05.model.permiso"/>
     </schemaBindings>
+    <bindings scd="tns:GetPermisoRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.permiso.GetPermisoRequest"/>
+    </bindings>
+    <bindings scd="tns:GetPermisoResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.permiso.GetPermisoResponse"/>
+    </bindings>
     <bindings scd="~tns:Permiso" if-exists="true" auto-acknowledge="true">
-      <class ref="pe.edu.cibertec.dswii.u02.t05.permiso_service.Permiso"/>
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.permiso.Permiso"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/rol-service">
@@ -33,14 +39,6 @@ Generado el: 2024.12.16 a las 10:55:45 AM PET
     </bindings>
     <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
       <class ref="pe.edu.cibertec.dswii.u02.t05.rol_service.UsuarioRol"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/usuarioRol-service">
-    <schemaBindings map="false">
-      <package name="pe.edu.cibertec.dswii.u02.t05.usuariorol_service"/>
-    </schemaBindings>
-    <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
-      <class ref="pe.edu.cibertec.dswii.u02.t05.usuariorol_service.UsuarioRol"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/rolPermiso-service">
@@ -66,6 +64,14 @@ Generado el: 2024.12.16 a las 10:55:45 AM PET
     </bindings>
     <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
       <class ref="pe.edu.cibertec.dswii.u02.t05.usuario_service.UsuarioRol"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/usuarioRol-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.usuariorol_service"/>
+    </schemaBindings>
+    <bindings scd="~tns:UsuarioRol" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.usuariorol_service.UsuarioRol"/>
     </bindings>
   </bindings>
 </bindings>

@@ -3,9 +3,7 @@
            targetNamespace="http://t05.u02.dswii.cibertec.edu.pe/rol-service"
            xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/rol-service"
            elementFormDefault="qualified">
-    <!-- Importación de esquema UsuarioRol -->
-    <xs:import namespace="http://t05.u02.dswii.cibertec.edu.pe/usuarioRol-service"
-               schemaLocation="usuarioRol-schema.xsd"/>
+
 
     <!-- Definir el tipo de Persona -->
     <xs:complexType name="Rol">
@@ -51,6 +49,8 @@
 
         </xs:sequence>
     </xs:complexType>
+
+
     <!-- Definir el tipo de UsuarioRol -->
     <xs:complexType name="UsuarioRol">
         <xs:sequence>
@@ -60,6 +60,7 @@
             <xs:element name="fechaAsignacion" type="xs:dateTime"/>
         </xs:sequence>
     </xs:complexType>
+
         <!-- Definir el elemento para la respuesta (Response) -->
     <xs:element name="GetRolResponse">
         <xs:complexType>
